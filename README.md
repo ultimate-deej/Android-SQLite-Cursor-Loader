@@ -1,6 +1,6 @@
 Android SQLite Cursor Loader
 ============================
-This is like the framework's `CursorLoader` but for SQLite. Content changes not detected! Do it yourself `yourLoader.onContentChanged()` after insert/delete/update.
+This is like the framework's `CursorLoader` but for SQLite. Content changes not detected, do it yourself: call the `yourLoader.onContentChanged()` method after insert/delete/update.
 
 There is also a version for using with support library.
 
@@ -12,7 +12,7 @@ Maven
 <dependency>
     <groupId>org.deejdev.database.sqlitecursorloader</groupId>
     <artifactId>sqlitecursorloader</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <type>aar</type>
 </dependency>
 ```
@@ -21,7 +21,7 @@ Gradle
 ```groovy
 dependencies {
     ...
-    compile 'org.deejdev.database.sqlitecursorloader:sqlitecursorloader:1.0'
+    compile 'org.deejdev.database.sqlitecursorloader:sqlitecursorloader:1.1'
 }
 ```
 
